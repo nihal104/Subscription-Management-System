@@ -1,0 +1,7 @@
+{
+  "name": "brightloop-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node --test test/", "db:init": "psql $DATABASE_URL -f schema.sql" },
+  "dependencies": { "bcryptjs": "^2.4.3", "express": "^4.19.2", "jsonwebtoken": "^9.0.2", "pg": "^8.12.0" }
+}
